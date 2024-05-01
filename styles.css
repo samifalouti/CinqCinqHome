@@ -150,112 +150,6 @@
     text-align: right;
   }
   
-  .form-popup {
-    width: 300px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    background-color: #ffffff; 
-    padding: 20px; 
-  }
-
-  .purchase-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-popup label {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .form-popup button {
-    width: 280px;
-    font-family: 'Alegreya';
-    height: 30px;
-    background-color: #5E17EB;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    opacity: 1;
-    cursor: pointer;
-  }
-  
-  .form-popup select {
-    width: 280px;
-    font-family: 'Alegreya';
-    padding-right: 10px;
-    color: #000;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    border-radius: 10px;
-    direction: rtl;
-    margin-bottom: 10px;
-    height: 30px;
-  }
-  
-  .form-popup input {
-    width: 265px;
-    font-family: 'Alegreya';
-    padding-right: 10px;
-    color: #000;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    border-radius: 10px;
-    direction: rtl;
-    margin-bottom: 10px;
-    height: 30px;
-  }
-
-  .form-popup textarea {
-    width: 265px;
-    font-family: 'Alegreya';
-    padding-right: 10px;
-    color: #000;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    border-radius: 10px;
-    direction: rtl;
-    margin-bottom: 10px;
-    height: 90px;
-  }
-  
-  .input-group {
-    margin-bottom: 10px;
-  }
-  
-  textarea:focus,
-  input:focus,
-  select:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  button[type="submit"] {
-    width: 280px;
-    font-family: 'Alegreya';
-    height: 30px;
-    background-color: #5E17EB;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: normal;
-    opacity: 1;
-    cursor: pointer;
-  }
-  
 .form-popup {
   display: flex;
   flex-direction: column;
@@ -386,6 +280,20 @@ button[type="submit"] {
   z-index: 1500;
 }
 
+.settings-menu {
+  display: none;
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+}
+
+.setting-image {
+  width: 100px; /* Adjust image size as needed */
+  height: 100px; /* Adjust image size as needed */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
 .window2 {
   display: none;
   position: fixed;
@@ -438,6 +346,10 @@ button[type="submit"] {
 
 .links img {
   width: 40px;
+}
+
+.show {
+  display: block !important;
 }
 
 .contact-info {
